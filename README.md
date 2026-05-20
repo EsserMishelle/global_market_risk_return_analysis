@@ -19,6 +19,15 @@ The original dataset is attached below:
 
 [Original Dataset](https://github.com/EsserMishelle/global_market_risk_return_analysis/blob/main/yahoo_finance_global_markets_2026.csv)
 
+## Technogies Used
+- Python
+- Pandas
+- NumPy
+- Seaborn
+- Matplotlib
+- Tableau
+- Jupyter Notebook
+  
 ## Exploratory Data Analysis (EDA)
 Initial exploratory analysis focused on evaluating missing values, feature distributions, correlations, and market behavior across return, volatility, and sentiment metrics. Several sector- and industry-level variables contained substantial missing values, making asset-class level analysis more appropriate for executive dashboarding and comparative market evaluation.
 
@@ -52,6 +61,8 @@ The curated Tableau export also retained supporting market metadata, pricing his
 ## Tableau 
 The final executive dashboard was developed in Tableau Public to provide an interactive view of global market performance, risk-adjusted efficiency, sentiment distribution, and composite scoring across major asset classes and sectors. The dashboard combines return horizons, Sharpe analysis, market sentiment, and composite performance metrics to support executive-level market evaluation and comparative investment analysis.
 
+<img width="1187" height="887" alt="image" src="https://github.com/user-attachments/assets/595a2c68-98c0-49b2-b12d-7edaa8e5f0dc" />
+
 Tableau Public Dashboard:
 
 [Interactive Tableau Public Dashboard]
@@ -59,6 +70,12 @@ Tableau Public Dashboard:
 
 ## Project Files
 [GitHub Repoistory]
+
+## Key Findings
+International and ETF markets demonstrated the strongest long-term risk-adjusted performance.
+Crypto exhibited the highest volatility and weakest return stability across investment horizons.
+Momentum leadership became increasingly concentrated within Energy and International sectors.
+Fear-Greed sentiment analysis revealed stronger bullish concentration across diversified equity markets.
 
 # Conclusion
 International and ETF markets demonstrated the strongest long-term risk-adjusted performance, while Crypto remained the weakest and most volatile asset class across multiple investment horizons. Composite scoring and sentiment analysis further highlighted stronger market concentration within diversified global equity markets relative to higher-volatility alternative assets.
