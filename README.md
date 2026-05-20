@@ -63,11 +63,12 @@ The final executive dashboard was developed in Tableau Public to provide an inte
 
 <img width="1187" height="887" alt="image" src="https://github.com/user-attachments/assets/595a2c68-98c0-49b2-b12d-7edaa8e5f0dc" />
 
-Tableau Public Dashboard:
+## Tableau Dashboard
 
-[Interactive Tableau Public Dashboard]
+- [Interactive Tableau Public Dashboard](https://public.tableau.com/shared/9P9Y8MKZD?:display_count=n&:origin=viz_share_link)
 
-[Global Market Risk Return Analysis](https://github.com/EsserMishelle/global_market_risk_return_analysis/blob/main/Global_Market_Risk_Return_Analysis.twbx)
+- [Download Tableau Workbook (.twbx)](https://github.com/EsserMishelle/global_market_risk_return_analysis/blob/main/Global_Market_Risk_Return_Analysis.twbx)
+  
 
 ## Project Folder
 [GitHub Repoistory](https://github.com/EsserMishelle/global_market_risk_return_analysis)
