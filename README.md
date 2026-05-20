@@ -23,7 +23,19 @@ The original dataset is attached below:
 Initial exploratory analysis focused on evaluating missing values, feature distributions, correlations, and market behavior across return, volatility, and sentiment metrics. Several sector- and industry-level variables contained substantial missing values, making asset-class level analysis more appropriate for executive dashboarding and comparative market evaluation.
 
 ### Correlation Analysis
-Correlation analysis revealed strong relationships between longer-term return horizons and Sharpe efficiency metrics, while volatility indicators demonstrated strong internal correlation across time periods.
+
+Heapmap Chart
+<img width="939" height="590" alt="image" src="https://github.com/user-attachments/assets/d91abbe4-7219-4526-a938-880537caeb6e" />
+
+Correlation analysis revealed strong relationships between Momentum Score, Composite Score, and medium- to long-term return horizons, suggesting that assets with sustained upward momentum also demonstrated stronger overall investment quality and performance consistency. 
+
+Momentum Score showed especially high correlation with 3-month (0.91) and 6-month (0.97) returns and Market Cap USD (0.85), while Composite Score aligned closely with both Sharpe efficiency and longer-term return performance.
+
+Fear-Greed sentiment displayed an inverse relationship with volatility metrics (-0.73 ~ -0.82), indicating that higher market optimism generally corresponded with lower observed market risk across asset classes.
+
+Longer-term returns demonstrate stronger positive relationships with Sharpe ratios, particularly between 1-Year Return and 1-Year Sharpe (0.75), indicating that stronger long-term performance is generally associated with improved risk-adjusted efficiency. 
+
+Volatility measures also exhibit strong internal correlation, especially between 90-Day and 1-Year Volatility (0.89), while showing weaker or negative relationships with Sharpe performance. Overall, the analysis suggests that long-term return consistency contributes more strongly to market efficiency than short-term market fluctuations.
 
 ## Jupyter Notebook Analysis
 The complete techincal exploratory analysis, feature engineering, correlation analysis, and csv file export (for Tableau) workflow were developed in Python using Jupyter Notebook.
@@ -33,16 +45,9 @@ The complete techincal exploratory analysis, feature engineering, correlation an
 ## Feature Engineering and Selected Metrics
 The final executive analysis focused on financial indicators most relevant to market performance, risk evaluation, and executive decision-making:
 
-Return Horizons (1M, 6M, 1Y)
-1-Year Volatility
-Sharpe Ratio
-Composite Score
-Fear-Greed Sentiment
-Market Capitalization
-Momentum Indicators
-Risk-Adjusted Rankings
+Selected features included return horizons, volatility measures, risk-adjusted efficiency metrics, momentum indicators, market sentiment signals, composite scoring models, ranking systems, and market capitalization data across multiple asset classes and sectors.
 
-These metrics were selected to balance return performance, market risk, sentiment behavior, and overall investment efficiency across global asset classes. These selected features were exported as a CSV file for executive visualization in Tableau.
+The curated Tableau export also retained supporting market metadata, pricing history, technical indicators, and classification attributes to support interactive filtering, comparative analysis, and dashboard storytelling.
 
 ## Tableau 
 The final executive dashboard was developed in Tableau Public to provide an interactive view of global market performance, risk-adjusted efficiency, sentiment distribution, and composite scoring across major asset classes and sectors. The dashboard combines return horizons, Sharpe analysis, market sentiment, and composite performance metrics to support executive-level market evaluation and comparative investment analysis.
@@ -52,7 +57,7 @@ Tableau Public Dashboard:
 [Interactive Tableau Public Dashboard]
 [Global Market Risk Return Analysis](https://github.com/EsserMishelle/global_market_risk_return_analysis/blob/main/Global_Market_Risk_Return_Analysis.twbx)
 
-# Project Files
+## Project Files
 [GitHub Repoistory]
 
 # Conclusion
