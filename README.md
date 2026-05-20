@@ -66,17 +66,24 @@ The final executive dashboard was developed in Tableau Public to provide an inte
 Tableau Public Dashboard:
 
 [Interactive Tableau Public Dashboard]
+
 [Global Market Risk Return Analysis](https://github.com/EsserMishelle/global_market_risk_return_analysis/blob/main/Global_Market_Risk_Return_Analysis.twbx)
 
 ## Project Files
-[GitHub Repoistory]
+[GitHub Repoistory](https://github.com/EsserMishelle/global_market_risk_return_analysis)
 
 ## Key Findings
-International and ETF markets demonstrated the strongest long-term risk-adjusted performance.
-Crypto exhibited the highest volatility and weakest return stability across investment horizons.
-Momentum leadership became increasingly concentrated within Energy and International sectors.
-Fear-Greed sentiment analysis revealed stronger bullish concentration across diversified equity markets.
+- International and ETF markets demonstrated the strongest long-term risk-adjusted performance.
+- Crypto exhibited the highest volatility and weakest return stability across investment horizons.
+- Momentum leadership became increasingly concentrated within Energy and International sectors.
+- Fear-Greed sentiment analysis revealed stronger bullish concentration across diversified equity markets.
 
 # Conclusion
-International and ETF markets demonstrated the strongest long-term risk-adjusted performance, while Crypto remained the weakest and most volatile asset class across multiple investment horizons. Composite scoring and sentiment analysis further highlighted stronger market concentration within diversified global equity markets relative to higher-volatility alternative assets.
+- International and ETF markets exhibit the strongest risk-adjusted performance Crypto remained the weakest and most volatile asset class across multiple horizons.
+
+- Diversified global markets demonstrated stronger long-term efficiency and stability than higher-volatility assets.
+
+- Market performance varied significantly across asset classes, indicating the importance of balancing return with volatility.
+
+- Composite and momentum analysis further revealed leadership concentration within Energy, Utilities, and diversified international sectors, while several US Mid and speculative asset groups exhibited weakening momentum and higher return instability.
 
