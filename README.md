@@ -69,7 +69,7 @@ Tableau Public Dashboard:
 
 [Global Market Risk Return Analysis](https://github.com/EsserMishelle/global_market_risk_return_analysis/blob/main/Global_Market_Risk_Return_Analysis.twbx)
 
-## Project Files
+## Project Folder
 [GitHub Repoistory](https://github.com/EsserMishelle/global_market_risk_return_analysis)
 
 ## Key Findings
