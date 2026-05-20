@@ -1,3 +1,5 @@
+<img width="1048" height="585" alt="pexels-pixabay-534216" src="https://github.com/user-attachments/assets/b200948e-9c20-454e-b868-71546add925d" />
+
 # Global Market Risk Return Analysis
 
 ## Project Overview
@@ -7,6 +9,11 @@ The project focuses on key financial indicators including return performance, Sh
 
 ## Dataset
 The Kaggle dataset is collected directly from Yahoo Finance and enriched with production-grade technical indicators, fundamental ratios, and proprietary composite scores. The dataset at a glance includes 451 tickers, 131 columns, and 8 asset classes. It provides one year of price history spanning April 2025 to April 2026, sourced from Yahoo Finance via yfinance. Market capitalizations have been normalized to USD, and the dataset is released under a CC0 Public Domain license.
+
+The screenshots display a partial preview of the orginal dataset.  
+
+<img width="1837" height="340" alt="image" src="https://github.com/user-attachments/assets/1b4cf2b4-c9e1-4c21-9492-c546ad8c7b17" />
+<img width="1875" height="341" alt="image" src="https://github.com/user-attachments/assets/e6a1fed8-420a-4ba9-bb9d-c020ea6285c3" />
 
 The original dataset is attached below:
 
@@ -21,7 +28,7 @@ Correlation analysis revealed strong relationships between longer-term return ho
 ## Jupyter Notebook Analysis
 The complete techincal exploratory analysis, feature engineering, correlation analysis, and csv file export (for Tableau) workflow were developed in Python using Jupyter Notebook.
 
-[Jupyter Notebook Analysis]
+[Jupyter Notebook Analysis](https://github.com/EsserMishelle/global_market_risk_return_analysis/blob/main/global_market_risk_return_analysis.ipynb)
 
 ## Feature Engineering and Selected Metrics
 The final executive analysis focused on financial indicators most relevant to market performance, risk evaluation, and executive decision-making:
